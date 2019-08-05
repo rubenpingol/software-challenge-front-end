@@ -3,9 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.21",
+    "@fortawesome/free-solid-svg-icons": "^5.10.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bootstrap": "^4.3.1",
+    "prop-types": "^15.7.2",
     "react": "^16.6.3",
+    "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-redux": "^7.1.0",
+    "react-redux-toastr": "^7.5.1",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.1",
+    "react-select": "^3.0.4",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "render-if": "^0.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +36,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "Imerso Front-end Challenge",
+  "main": "index.js",
+  "repository": "git@github.com:rubenpingol/software-challenge-front-end.git",
+  "author": "Ruben Bert Pingol <rubenberttpingol@gmail.com>",
+  "license": "MIT"
 }
