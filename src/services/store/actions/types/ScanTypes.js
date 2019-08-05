@@ -1,0 +1,10 @@
+export const SCAN_LIST_REQUEST  = 'SCAN_LIST_REQUEST';
+export const SCAN_LIST          = 'SCAN_LIST';
+export const SCAN_LIST_FAILED   = 'SCAN_LIST_FAILED';
+export const SCAN_LIST_UPDATE   = 'SCAN_LIST_UPDATE';
+export const SCAN_CREATE        = 'SCAN_CREATE';
+export const SCAN_EDIT          = 'SCAN_EDIT';
+export const SCAN_EDIT_UNMOUNT  = 'SCAN_EDIT_UNMOUNT';
+export const SCAN_UPDATE        = 'SCAN_UPDATE';
+export const SCAN_SAVING        = 'SCAN_SAVING';
+export const SCAN_SAVE          = 'SCAN_SAVE';

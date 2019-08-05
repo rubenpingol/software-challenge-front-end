@@ -1,0 +1,30 @@
+body {
+    background-color: #fafafa;
+}
+.AppContainer {
+    padding: 20px;
+}
+.PageHeader h1 {
+    font-size: 2rem;
+}
+/* Scan List */
+.scans-tabular-list thead>tr>th.sortable {
+    cursor: pointer;
+}
+.sortable>span,
+.sortable.sorted-asc>span.desc,
+.sortable.sorted-desc>span.asc {
+    display: none;
+}
+.sortable.sorted-asc>span.asc {
+    display: inline-block;
+}
+.sortable.sorted-desc>span.desc {
+    display: inline-block;
+}
+/* Media Queries */
+@media(max-width: 575px) {
+    .create-scan-btn {
+        margin-bottom: 15px;
+    }
+}
